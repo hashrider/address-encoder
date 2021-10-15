@@ -360,7 +360,6 @@ function bs58grscheckEncode(payload: Buffer): string {
     checksum
   ], payload.length + 4))
 }
-// Lifted from https://github.com/ensdomains/address-encoder/pull/239/commits/4872330fba558730108d7f1e0d197cfef3dd9ca6
 // https://github.com/groestlcoin/bs58grscheck
 function decodeRaw(buffer: Buffer): Buffer {
   const payload = buffer.slice(0, -4)

@@ -1,5 +1,5 @@
 {
-  "name": "@ensdomains/address-encoder",
+  "name": "@fns/address-encoder",
   "version": "0.2.7",
   "description": "Encodes and decodes address formats for various cryptocurrencies",
   "source": "src/index.ts",
@@ -22,11 +22,11 @@
     "blockchain",
     "cryptocurrency",
     "bitcoin",
-    "ethereum",
+    "fantom",
     "encoding"
   ],
-  "author": "Nick Johnson <nick@ens.domains>",
-  "license": "BSD",
+  "author": "",
+  "license": "Fantom",
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.12",
